@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="OuoukoDayo 隱私權政策：EDF WB2 收集手帳的本機資料、Google Drive 應用程式資料、使用目的、保存與刪除方式。"><meta name="theme-color" content="#f4f3ed"><title>隱私權政策 Privacy Policy — OuoukoDayo</title><link rel="canonical" href="https://promise82114.github.io/privacy.html"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"></head>
+<body>
+<a class="skip-link" href="#main">跳至主要內容</a>
+<header class="site-header wrap"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">O.</span>OuoukoDayo</a><nav aria-label="主要導覽"><a href="/">首頁</a><a href="/terms.html">服務條款</a></nav></header>
+<main id="main" class="wrap legal">
+<p class="eyebrow">PRIVACY POLICY</p><h1>隱私權政策</h1><p class="lead">你的進度，由你掌握。Google Drive 是由你選擇啟用的備份功能。</p><p class="date">生效日期／最後更新：2026 年 10 月 13 日</p>
+<p>本政策適用於 <strong>OuoukoDayo</strong>（由 promise82114 維護）的入口網站，以及本站連結的 <a href="/edfwb2-checklist/">EDF WB2 收集手帳（edfwb2-checklist）</a>之 Google Drive 備份與還原功能。其他專案若有不同的資料處理方式，將另行說明。</p>
+<div class="notice">本站不需要建立帳號。未啟用 Google Drive 時，收集手帳的進度保存在你的瀏覽器；啟用後，進度直接在瀏覽器與 Google Drive 之間傳輸，沒有由維護者營運的資料接收伺服器。</div>
+<h2>1. 我們存取哪些資料</h2>
+<ul><li><strong>本機進度與設定：</strong>已取得項目、關卡收藏、啟用的遊戲內容、資料版本、更新時間，以及供復原使用的本機快照。這些資料由收集手帳保存在瀏覽器本機儲存空間。</li><li><strong>Google Drive 應用程式資料：</strong>你授權後，應用程式讀取、建立或更新自己的進度 JSON 檔案（目前為 <code>edfwb2-checklist.json</code>），以及該檔案的 ID、名稱、版本和修改時間等必要中繼資料。</li><li><strong>授權資料：</strong>Google 提供的短期 OAuth Access Token、權限範圍與到期資訊，只用來呼叫 Drive API。應用程式不接收你的 Google 密碼，也不要求姓名、Email、聯絡人或 Gmail 存取權限。</li></ul>
+<p>Google Drive 的權限範圍為 <code>https://www.googleapis.com/auth/drive.appdata</code>。資料放在隱藏的 <code>appDataFolder</code>；此權限不允許瀏覽你的「我的雲端硬碟」一般檔案，也不存取其他應用程式的資料。同一 OAuth 應用程式的其他專案可能共用此應用程式資料空間，各專案以獨立檔名及 projectId 區分。</p>
+<h2>2. 資料使用目的</h2>
+<p>資料僅用於顯示和保存收集進度、備份、下載比較，以及由你選擇的合併或還原。首次連接只讀取雲端進度供比較；上傳與套用進度需由你在介面中明確操作。這不是持續在背景運作的即時同步。</p>
+<p>我們不販售 Google 使用者資料、不將其用於廣告或信用評估，也不將其用於訓練通用 AI／機器學習模型。維護者不透過此功能取得或閱覽你的進度檔案。</p>
+<h2>3. Google API 資料的 Limited Use 承諾</h2>
+<p>OuoukoDayo 對從 Google API 取得之資訊的使用與傳輸，遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> 與 <a href="https://developers.google.com/workspace/workspace-api-user-data-developer-policy">Google Workspace API User Data and Developer Policy</a>，包括 Limited Use（有限使用）要求。</p>
+<p class="english" lang="en">OuoukoDayo's use and transfer of information received from Google APIs will adhere to the Google API Services User Data Policy and the Google Workspace API User Data and Developer Policy, including the Limited Use requirements.</p>
+<h2>4. 傳輸、第三方與網站紀錄</h2>
+<p>Google 登入和授權由 Google Identity Services 處理，進度由瀏覽器透過 HTTPS 直接傳送至 Google Drive API。Google 對其服務處理的資料依 <a href="https://policies.google.com/privacy">Google 隱私權政策</a> 管理；我們不將 Drive 進度傳送至其他分析、廣告或資料經紀服務。</p>
+<p>入口網站與政策頁沒有加入分析追蹤工具、廣告程式或追蹤 Cookie。網站由 GitHub Pages 提供；GitHub 可能為安全與營運目的記錄訪客 IP 位址等請求資料，依其 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">隱私權聲明</a> 處理。</p>
+<p>如果你主動以 Email 聯絡我們，我們會收到你提供的 Email 與訊息內容，僅用於回覆、處理問題和必要的往來紀錄。請不要寄送 Access Token 或不必要的個人資料。若使用 GitHub Issues，留言可能公開顯示。</p>
+<h2>5. 保存與安全</h2>
+<ul><li>Access Token 只保存在目前頁面的記憶體，不寫入 localStorage、sessionStorage、備份檔或 URL。重新整理、關閉頁面、中斷連接或到期後，需重新授權才能繼續存取 Drive。</li><li>本機進度與快照保留至你移除相關瀏覽器資料；下載的 JSON 備份由你自行保管。</li><li>雲端進度保存於你的 Google Drive，直到你刪除應用程式資料。中斷連接或撤銷權限不會自動刪除已儲存的進度。</li><li>我們不在維護者伺服器保存 Drive 進度或 Token。裝置與 Google 帳號的安全，以及備份檔的保管，仍請由你妥善管理。</li></ul>
+<h2>6. 撤銷授權、刪除與資料控制</h2>
+<ol><li><strong>中斷目前頁面：</strong>使用收集手帳的「中斷連接」清除此頁的 Token，兩端進度仍保留。</li><li><strong>撤銷 Google 授權：</strong>前往 <a href="https://myaccount.google.com/connections">Google 帳號的第三方連結管理</a>，移除 OuoukoDayo 對應應用程式的存取權限。這可能同時影響使用相同 OAuth 應用程式的其他專案。</li><li><strong>刪除雲端進度：</strong>在 Google Drive 網頁的「設定 → 管理應用程式」中找到對應應用程式，透過其選項刪除隱藏的應用程式資料。這可能移除同一應用程式的其他專案備份，請先匯出需要保留的資料。</li><li><strong>刪除本機資料：</strong>清除瀏覽器對本站的網站資料／本機儲存。本站專案共用網域，此操作可能清除其他專案的進度，請先匯出備份。已下載的 JSON 檔須另行刪除。</li></ol>
+<p>你可以不連接 Google Drive，繼續使用本機進度與 JSON 匯出。若希望刪除主動寄給我們的聯絡內容，或需要上述操作的協助，請透過下方 Email 聯絡。維護者無法直接替你操作私人 Drive 或裝置中的資料。</p>
+<h2>7. 政策更新與聯絡</h2><p>資料處理方式變更時，我們會更新此頁與更新日期；新增需要 Google 權限的功能，會在使用前說明並要求相應授權。</p><p>應用程式：<strong>OuoukoDayo</strong><br>維護者：promise82114<br>隱私與支援聯絡：<a href="mailto:promise82114@gmail.com">promise82114@gmail.com</a></p>
+</main>
+<footer class="site-footer wrap"><p>© 2026 OuoukoDayo</p><nav aria-label="頁尾導覽"><a href="/">首頁</a><a href="/privacy.html" aria-current="page">隱私權政策</a><a href="/terms.html">服務條款</a></nav></footer>
+</body></html>

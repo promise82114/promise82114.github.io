@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://promise82114.github.io/sitemap.xml
