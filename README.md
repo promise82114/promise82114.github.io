@@ -17,7 +17,7 @@ Official website of OuoukoDayo — a collection of personal projects, game tools
 在 Google Auth Platform → Branding 填入：
 
 - App name：`OuoukoDayo`
-- User support email：`promise82114@gmail.com`
+- User support email：依 Google Console 要求填入；本站頁面不提供聯絡入口。
 - Application home page：`https://promise82114.github.io/`
 - Privacy policy：`https://promise82114.github.io/privacy.html`
 - Terms of service：`https://promise82114.github.io/terms.html`
