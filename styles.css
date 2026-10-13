@@ -5,3 +5,6 @@
 
 @media(max-width:620px){.hero-art{overflow:hidden;border-radius:24px}}
 @media(max-width:360px){.project-visual strong span{display:block;margin-left:0}.hero-art{height:300px}.hero-art .orbit{width:260px;height:260px}.hero-art .orbit-two{width:285px;height:285px}}
+
+@media(max-width:620px){.hero-art{height:360px}}
+@media(max-width:360px){.hero-art{height:350px}}
